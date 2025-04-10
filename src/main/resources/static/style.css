@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+button, .button {
+  padding: 10px 20px;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover, .button:hover {
+  background: #e55448;
+}
+
+.student-card {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ffebcd;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
