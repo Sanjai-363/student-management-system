@@ -42,7 +42,12 @@ button, .button {
 button:hover, .button:hover {
   background: #e55448;
 }
-
+.student-card button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
 .student-card {
   background: rgba(255, 255, 255, 0.2);
   margin: 10px 0;
